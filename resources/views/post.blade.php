@@ -1,12 +1,6 @@
-<html>
-<title>My Blog</title>
-<link rel="stylesheet" href="/app.css">
-
-<body>
+<x-layout>
     <article>
-        <?= $post; ?>
+        {!! $post !!}
     </article>
     <a href="/">Go Back</a>
-</body>
-
-</html>
+</x-layout>
